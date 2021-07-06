@@ -1,5 +1,5 @@
 # automated-meeting-minute
-This project introduce 2 methods to produce a meeting minute from a plain transcript.
+This project introduces 2 methods to produce a meeting minute from a plain transcript.
 
 # Method 1: Classifying important sentences using Convolutional Neural Network
 This method extracts important sentences out of the long and unstructured transcript. It uses NLP techniques to preprocess the transcript and convert it into matrix representation using GloVe embedding. CNN is then used to to extract n-gram features at different position of a sentence thruogh a 1D convolutional filter.
